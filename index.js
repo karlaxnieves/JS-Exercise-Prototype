@@ -116,10 +116,10 @@ Baby.prototype.play = function () {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window Binding - If we don't give 'this' any context it will return the window.
+    2. Implicit Binding  - When a function is invoked, look to the left of the dot, that's what 'this' refers to 
+    3. Explicit binding - explicitly tell javaScript using .call, .apply or .bind what the this keyword refers to 
+    4. New Binding - When a function is invoked as a constructor function using the new keyword 'this' points to the newly created object 
   */
   
   
